@@ -9,3 +9,25 @@ The Jetson Nano is a compact, powerful AI computer designed by NVIDIA, ideal for
 ![jetson-nano-dev-kit-top-r6-HR-B01](https://github.com/viendimine/Turtlebot3/assets/126682925/3bbf76df-2245-413d-a958-f4bbb80b0a59)
 ![Screenshot_2024-06-28_20-35-01](https://github.com/viendimine/Turtlebot3/assets/126682925/a0d93ee1-538e-4cce-8659-160fa4fdc438)
 
+## PC Setup
+
+### Install ROS on Remote pc
+```
+$ sudo apt update
+$ sudo apt upgrade
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+$ chmod 755 ./install_ros_noetic.sh 
+$ bash ./install_ros_noetic.sh
+```
+
+### Install Dependent ROS package
+```
+$ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
+  ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
+  ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \
+  ros-noetic-rosserial-python ros-noetic-rosserial-client \
+  ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
+  ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
+  ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
+  ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
+```
