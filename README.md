@@ -34,7 +34,16 @@ $ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
 
 ### Install TURTLEBOT3 packages
 ```
-$ sudo apt-get install ros-kinetic-dynamixel-sdk
-$ sudo apt-get install ros-kinetic-turtlebot3-msgs
-$ sudo apt-get install ros-kinetic-turtlebot3
+$ sudo apt-get install ros-noetic-dynamixel-sdk
+$ sudo apt-get install ros-noetic-turtlebot3-msgs
+$ sudo apt-get install ros-noetic-turtlebot3
+```
+### Set TurtleBot3 Model Name
+* For TURTLEBOT3 Burger
+```
+$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+```
+* For TURTLEBOT3 Waffle
+```
+$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 ```
