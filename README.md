@@ -31,3 +31,10 @@ $ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
   ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
   ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
 ```
+
+### Install TURTLEBOT3 packages
+```
+$ sudo apt-get install ros-kinetic-dynamixel-sdk
+$ sudo apt-get install ros-kinetic-turtlebot3-msgs
+$ sudo apt-get install ros-kinetic-turtlebot3
+```
