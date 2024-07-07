@@ -43,7 +43,12 @@ $ sudo apt-get install ros-noetic-turtlebot3
 ```
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 ```
-* For TURTLEBOT3 Waffle
+* For TURTLEBOT3 Waffle Pi
 ```
-$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+$ echo "export TURTLEBOT3_MODEL=waffle pi" >> ~/.bashrc
+```
+### Network Configuration
+```
+$ export ROS_MASTER_URI=http://IP_OF_REMOTE_PC:11311
+$ export ROS_HOSTNAME=IP_OF_TURTLEBOT
 ```
