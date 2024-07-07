@@ -48,6 +48,9 @@ $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 $ echo "export TURTLEBOT3_MODEL=waffle pi" >> ~/.bashrc
 ```
 ### Network Configuration
+
+![Screenshot_2024-07-07_19-44-32](https://github.com/viendimine/Turtlebot3/assets/126682925/495851e4-7389-4502-bfff-d3c158815c80)
+
 ```
 $ export ROS_MASTER_URI=http://IP_OF_REMOTE_PC:11311
 $ export ROS_HOSTNAME=IP_OF_TURTLEBOT
