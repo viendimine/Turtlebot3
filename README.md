@@ -55,3 +55,7 @@ $ echo "export TURTLEBOT3_MODEL=waffle pi" >> ~/.bashrc
 $ export ROS_MASTER_URI=http://IP_OF_REMOTE_PC:11311
 $ export ROS_HOSTNAME=IP_OF_TURTLEBOT
 ```
+Connect PC to a WiFi device and find the assigned IP address with the command below.
+```
+$ ifconfig
+```
