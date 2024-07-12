@@ -59,3 +59,9 @@ Connect PC to a WiFi device and find the assigned IP address with the command be
 ```
 $ ifconfig
 ```
+
+Open the file and update the ROS IP settings with the command below.
+
+```
+$ nano ~/.bashrc
+```
