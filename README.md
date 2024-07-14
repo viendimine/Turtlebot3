@@ -65,7 +65,7 @@ Open the file and update the ROS IP settings with the command below.
 ```
 $ nano ~/.bashrc
 ```
-
+Source the bashrc with below command.
 ```
 $ source ~/.bashrc
 ```
