@@ -69,3 +69,5 @@ Source the bashrc with below command.
 ```
 $ source ~/.bashrc
 ```
+
+### SBC setup
