@@ -71,3 +71,10 @@ $ source ~/.bashrc
 ```
 
 ### SBC setup
+
+#### ROS Network Configuration
+Confirm the WiFi IP address
+
+```
+$ ifconfig
+```
