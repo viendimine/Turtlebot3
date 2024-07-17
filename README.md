@@ -78,3 +78,13 @@ Confirm the WiFi IP address
 ```
 $ ifconfig
 ```
+#### Edit the .bashrc file
+```
+$ nano ~/.bashrc
+```
+
+```
+$ export ROS_MASTER_URI=http://{IP_ADDRESS_OF_REMOTE_PC}:11311
+$ export ROS_HOSTNAME={IP_ADDRESS_OF_RASPBERRY_PI_3}
+```
+Edit 
