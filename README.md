@@ -87,11 +87,12 @@ $ nano ~/.bashrc
 $ export ROS_MASTER_URI=http://{IP_ADDRESS_OF_REMOTE_PC}:11311
 $ export ROS_HOSTNAME={IP_ADDRESS_OF_RASPBERRY_PI_3}
 ```
-#### NEW LDS-02 Configuration
-![lds_small](https://github.com/user-attachments/assets/33ca472f-a868-492c-ab02-1ccc987f53d3)
 
 
-### Apply changes with the command belo
+
+### Apply changes with the command below
 ```
 $ source ~/.bashrc
 ```
+#### NEW LDS-02 Configuration
+![lds_small](https://github.com/user-attachments/assets/33ca472f-a868-492c-ab02-1ccc987f53d3)
